@@ -1,4 +1,4 @@
-package com.adventofcode.kosieradzki.OCR;
+package com.AdventOfCode.primitive.OCR;
 
 public abstract class Letter {
     protected static final String a = ".##.\n#..#\n#..#\n####\n#..#\n#..#";

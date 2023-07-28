@@ -1,4 +1,4 @@
-package com.adventofcode.kosieradzki.OCR;
+package com.AdventOfCode.primitive.OCR;
 
 import java.util.ArrayList;
 import java.util.List;
