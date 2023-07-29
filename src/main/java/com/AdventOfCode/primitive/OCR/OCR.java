@@ -1,5 +1,6 @@
 package com.AdventOfCode.primitive.OCR;
 
+import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +9,12 @@ public class OCR {
         List<String> lettersBeforeOCR = fromWord2Letters(wordBeforeOCR);
         StringBuilder convertedWord = new StringBuilder();
         for (String letter : lettersBeforeOCR) {
-            Letters letters = new Letters();
+            Letters letters;
+            try {
+                letters = new Letters();
+            } catch (InvocationTargetException | NoSuchMethodException | IllegalAccessException e) {
+                throw new RuntimeException(e);
+            }
             convertedWord.append(letters.findLetter(letter));
         }
         return convertedWord.toString();

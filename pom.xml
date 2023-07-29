@@ -6,7 +6,7 @@
 
     <groupId>com.adventofcode.primitive.OCR</groupId>
     <artifactId>adventofcode-ocr</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1</version>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
@@ -21,4 +21,13 @@
             <url>https://maven.pkg.github.com/thekosa/AdventOfCodeOCR</url>
         </repository>
     </distributionManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.28</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 </project>
