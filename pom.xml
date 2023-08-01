@@ -6,7 +6,16 @@
 
     <groupId>com.adventofcode.primitive.OCR</groupId>
     <artifactId>adventofcode-ocr</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
+
+    <build>
+        <sourceDirectory>src/main/java/com/AdventOfCode/primitive/OCR</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+    </build>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>
