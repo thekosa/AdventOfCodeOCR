@@ -4,6 +4,9 @@ import lombok.Getter;
 
 import java.lang.reflect.InvocationTargetException;
 
+/**
+ * Class with predicted templates of letters in fixed dimensions, 4 columns and 5 rows.
+ */
 @Getter
 public class Letter {
     private final String a = ".##.\n#..#\n#..#\n####\n#..#\n#..#";
@@ -33,6 +36,15 @@ public class Letter {
     private final String y = "unpredicted0";
     private final String z = "####\n...#\n..#.\n.#..\n#...\n####";
 
+    /**
+     * Generic get method. It returns predicted string letter based on argument.
+     *
+     * @param getWhat - what letter you want to get
+     * @return field on which parameter getWhat points to
+     * @throws NoSuchMethodException     - if the underlying method getMethod() throws an exception. When getWhat is unknown.
+     * @throws InvocationTargetException - if the underlying method invoke() throws an exception.
+     * @throws IllegalAccessException    - if the underlying method invoke() throws an exception.
+     */
     public Object get(String getWhat) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         return this.getClass().getMethod("get" + getWhat).invoke(this);
     }
