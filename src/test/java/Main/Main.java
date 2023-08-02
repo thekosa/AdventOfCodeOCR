@@ -1,3 +1,5 @@
+package Main;
+
 import com.AdventOfCode.primitive.OCR.OCR;
 
 public class Main {

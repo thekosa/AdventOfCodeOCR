@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.AdventOfCode.primitive.OCR"},{"l":"Main"}];updateSearchResults();

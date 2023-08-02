@@ -22,7 +22,7 @@ public class OCR {
      * "#.....#...#....#....#..#....#.####.#..#.\n" + <br>
      * "#....#....#....#..#.#..#.#..#.#..#.#..#.\n" + <br>
      * "####.####.#.....##..#..#..##..#..#.###..";    <br>
-     * </blockquote></pre>
+     * </pre></blockquote>
      * @return converted word to standard characters
      */
     public static String convert(String wordBeforeOCR) {
