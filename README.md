@@ -10,7 +10,7 @@ To add this package to your project, you need use maven and add dependency, and 
 <dependency>
   <groupId>com.adventofcode.primitive.OCR</groupId>
   <artifactId>adventofcode-ocr</artifactId>
-  <version>1.2</version>
+  <version>1.3</version>
 </dependency>
 ```
 This is simple tool, there is only one method to convert ASCII art to string. Convert() gets ASCII art word, and returns string with actual letters. If there is something wrong with input word, or OCR can't recognize the letter, application will return "?" sign.
