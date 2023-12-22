@@ -1,0 +1,3 @@
+1. New version in pom.xml.
+2. New personal access token in Github settings -> developer settings, delete the old one.
+3. Set new token as a password in file settings.xml in windows (użytkownicy/user/.m2/).
