@@ -15,7 +15,7 @@ public class Letter {
     private final String d = "###.\n#..#\n#..#\n#..#\n#..#\n###.";
     private final String e = "####\n#...\n###.\n#...\n#...\n####";
     private final String f = "####\n#...\n###.\n#...\n#...\n#...";
-    private final String g = "unpredicted1";
+    private final String g = ".##.\n#..#\n#...\n#.##\n#..#\n.###";
     private final String h = "#..#\n#..#\n####\n#..#\n#..#\n#..#";
     private final String i = "####\n.##.\n.##.\n.##.\n.##.\n####";
     private final String j = "..##\n...#\n...#\n...#\n#..#\n.##.";
